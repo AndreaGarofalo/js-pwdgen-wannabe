@@ -14,3 +14,7 @@ console.log("JS OK");
 5. creo la password 
 6. inserisco la password in html
 */
+
+// 1. Prendo l'elemento dal dom
+const passwordElement = document.getElementById("password");
+console.log(passwordElement);
