@@ -32,4 +32,8 @@ const lastName = prompt("Qual'è il tuo cognome?", "Garofalo");
 
 // 4. chiedo all'utente il suo colore preferito con prompt e lo salvo nella variabile favouriteColor
 const favouriteColor = prompt("Qual'è il tuo colore preferito?", "Rosso");
-console.log(favouriteColor);
+// console.log(favouriteColor);
+
+// 5. creo la password
+const newPassword = firstName + lastName + favouriteColor + number;
+console.log(newPassword);
