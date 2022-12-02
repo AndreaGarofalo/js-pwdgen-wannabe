@@ -17,4 +17,7 @@ console.log("JS OK");
 
 // 1. Prendo l'elemento dal dom
 const passwordElement = document.getElementById("password");
-console.log(passwordElement);
+// console.log(passwordElement);
+
+// (1.b preparo una variabile con la string '21')
+const number = "21";
