@@ -24,4 +24,8 @@ const number = "21";
 
 // 2. chiedo all'utente il suo nome con prompt e lo salvo nella variabile firstName
 const firstName = prompt("Qual'è il tuo nome?", "Andrea");
-console.log(firstName);
+// console.log(firstName);
+
+// 3. chiedo all'utente il suo cognome con prompt e lo salvo nella variabile lastName
+const lastName = prompt("Qual'è il tuo cognome?", "Garofalo");
+console.log(lastName);
