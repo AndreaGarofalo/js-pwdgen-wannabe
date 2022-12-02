@@ -21,3 +21,7 @@ const passwordElement = document.getElementById("password");
 
 // (1.b preparo una variabile con la string '21')
 const number = "21";
+
+// 2. chiedo all'utente il suo nome con prompt e lo salvo nella variabile firstName
+const firstName = prompt("Qual'è il tuo nome?", "Andrea");
+console.log(firstName);
