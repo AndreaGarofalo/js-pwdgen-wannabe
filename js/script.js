@@ -36,4 +36,7 @@ const favouriteColor = prompt("Qual'è il tuo colore preferito?", "Rosso");
 
 // 5. creo la password
 const newPassword = firstName + lastName + favouriteColor + number;
-console.log(newPassword);
+// console.log(favouriteColor);
+
+// 6. inserisco la password in html
+passwordElement.innerHTML = "La tua nuova password è" + " " + newPassword;
