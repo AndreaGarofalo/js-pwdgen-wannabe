@@ -39,7 +39,7 @@ const newPassword = firstName + lastName + favouriteColor + number;
 // console.log(favouriteColor);
 
 // 6. inserisco la password in html
-// passwordElement.innerHTML = "La tua nuova password è" + " " + newPassword;
+// passwordElement.innerText = "La tua nuova password è" + " " + newPassword;
 
 // 6-bonus. inserisco la password in html in un altro modo
 passwordElement.innerText = `La tua nuova password è ${firstName}${lastName}${favouriteColor}21`;
